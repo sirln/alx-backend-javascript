@@ -5,13 +5,11 @@ function updateUniqueItems(map) {
     throw new Error('Cannot process');
   }
 
-  const updatedMap = new Map();
-
   map.forEach((quantity, item) => {
-    updatedMap.set(item, quantity === 1 ? 100 : quantity);
+    map.set(item, quantity === 1 ? 100 : quantity);
   });
 
-  return updatedMap;
+  return map;
 }
 
 export default updateUniqueItems;
