@@ -1,4 +1,6 @@
 // Export a const instance of WeakMap and name it weakMap.
+
+// Define a const instance of WeakMap
 const weakMap = new WeakMap();
 
 function queryAPI(endpoint) {
