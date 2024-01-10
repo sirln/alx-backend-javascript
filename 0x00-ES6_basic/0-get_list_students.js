@@ -7,3 +7,5 @@ function getListStudents() {
         ];
     return objects;
 }
+
+export default getListStudents;
