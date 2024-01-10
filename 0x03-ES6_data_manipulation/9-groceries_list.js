@@ -6,7 +6,7 @@ function groceriesList() {
     ['Tomatoes', 10],
     ['Pasta', 1],
     ['Rice', 1],
-    ['Banana', 5]
+    ['Banana', 5],
   ]);
 
   return groceryMap;
