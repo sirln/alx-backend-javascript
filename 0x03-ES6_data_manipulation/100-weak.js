@@ -2,7 +2,6 @@
 
 const weakMap = new WeakMap();
 
-
 function queryAPI(endpoint) {
   if (!weakMap.has(endpoint)) {
     weakMap.set(endpoint, 0);
